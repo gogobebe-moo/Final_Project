@@ -1,0 +1,104 @@
+* {
+  box-sizing: border-box;
+}
+
+.main-container {
+  border: rgba(141, 141, 141, 0.726) solid 1px;
+}
+
+.header {
+  margin: 0;
+  padding: 0;
+  border-bottom: rgba(141, 141, 141, 0.726) solid 1px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: azure;
+}
+
+.logo-container {
+  border-right: rgba(141, 141, 141, 0.726) solid 1px;
+  margin: 0;
+  padding: 1rem;
+}
+
+.logo-container a {
+  margin: 0;
+  padding: 0;
+  color: rgba(141, 141, 141, 0.726);
+  transition: all .5s;
+}
+
+.logo-container a:hover {
+  color: rgb(3, 131, 131);
+  transform: scale(1.5);
+}
+
+.links-container {
+  margin: 0;
+  margin-right: .5rem;
+  padding: 1rem;
+  width: 500px;
+  display: flex;
+  justify-content: space-between;
+  list-style-type: none;
+}
+
+li {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  color: rgba(141, 141, 141, 0.726);
+  transition: all .5s;
+}
+
+.links-container a:hover {
+  color: rgb(3, 131, 131);
+  transform: scale(1.5);
+}
+
+.hero-container {
+  height: 50rem;
+}
+
+.hero-container h1 {
+  margin: 0 auto;
+  color: black;
+  background-color: white;
+  border-radius: 10px;
+  width: 50%;
+  margin-top: -45rem;
+  font-size: 4rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.image {
+  background-image: url(lacrosse_field.jpg);
+  height: 100%;
+  background-size: cover;
+}
+
+
+
+
+
+
+
+.lower-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.main-rhtcol {
+  border: black solid 1px;
+  display: flex;
+  flex-direction: column;
+}
